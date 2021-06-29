@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>quần_áo_nam_cao_cấp</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\img\1.jpg" />
+    <None Include="wwwroot\img\2.jfif" />
+    <None Include="wwwroot\img\3.jpg" />
+    <None Include="wwwroot\img\4.jfif" />
+    <None Include="wwwroot\img\app-store.png" />
+    <None Include="wwwroot\img\banner.png" />
+    <None Include="wwwroot\img\bgbody.png" />
+    <None Include="wwwroot\img\cart.png" />
+    <None Include="wwwroot\img\ghim-cai-ao.png" />
+    <None Include="wwwroot\img\giay1.jpg" />
+    <None Include="wwwroot\img\giay2.jpg" />
+    <None Include="wwwroot\img\giay3.jpg" />
+    <None Include="wwwroot\img\giay4.jpg" />
+    <None Include="wwwroot\img\logostore.png" />
+    <None Include="wwwroot\img\play-store.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties wwwroot_4lib_4bootstrap_4dist_4css_4bootstrap_1min_1css_1map__JsonSchema="" /></VisualStudio></ProjectExtensions>
+
+</Project>

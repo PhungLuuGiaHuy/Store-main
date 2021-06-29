@@ -1,0 +1,225 @@
+﻿@model quần_áo_nam_cao_cấp.Models.Product
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Thời trang siêu đẹp siêu ngầu</title>
+    <link rel="stylesheet" type="text/css" href="./css/styleTrangChu.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="clear">
+            <img id="banner" src="./img/banner.png" height="650" />
+            <div class="leftcolumn">
+                <div class="small-container">
+                    <h2 class="line">Sản phẩm mới về</h2>
+                    <div class="row">
+                        <!--col 1-->
+                        <div class="col-4">
+                            <div class="box-wrapper">
+                                <div class="box-img" href=""><img src="~/img/1.jpg" width="60" height="90"></div>
+                                <div class="box-text">
+                                    <div class="title-wrapper">
+                                        <div class="title">áo vest đen</div>
+                                        @*<a class="title" href="@Url.Action("ViewProduct","Index")">Product.ProductName</a>*@
+                                    </div>
+                                    <div class="price-wrapper">
+                                        <div class="price">1.000.000<span class="đ">đ</span></div>
+                                    </div>
+                                    <div class="add-to-card-btn">
+                                        <div class="button"> <a href="~/GioHang" tabindex="-1" aria-disabled="true" class="btn"> <span class="btn-label">Mua ngay</span> </a> </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end col 1-->
+                        <!--col 2-->
+                        <div class="col-4">
+                            <div class="box-wrapper">
+                                <div class="box-img"><img src="./img/3.jpg" width="60" height="90"></div>
+                                <div class="box-text">
+                                    <div class="title-wrapper">
+                                        <div class="title">vest đen</div>
+                                    </div>
+                                    <div class="price-wrapper">
+                                        <div class="price">2.000.000<span class="đ">đ</span></div>
+                                    </div>
+                                    <div class="add-to-card-btn">
+                                        <div class="button"> <a href="~/GioHang" tabindex="-1" aria-disabled="true" class="btn"> <span class="btn-label">Mua ngay</span> </a> </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end col 2-->
+                        <!--col 3-->
+                        <div class="col-4">
+                        <div class="box-wrapper">
+                            <div class="box-img"><img src="./img/2.jfif" width="60" height="90"></div>
+                           <div class="box-text">
+                                    <div class="title-wrapper">
+                                        <div class="title">áo vest siêu ngầu</div>
+                                    </div>
+                                    <div class="price-wrapper">
+                                        <div class="price">1.300.000<span class="đ">đ</span></div>
+                                    </div>
+                                    <div class="add-to-card-btn">
+                                        <div class="button"> <a href="~/GioHang" tabindex="-1" aria-disabled="true" class="btn"> <span class="btn-label">Mua ngay</span> </a> </div>
+                                    </div>
+                             </div>
+                        </div>
+                    </div>
+                    <!--end col 3-->
+                    <!--col 4-->
+                    <div class="col-4">
+                        <div class="box-wrapper">
+                            <div class="box-img"><img src="./img/giay2.jpg" width="60" height="90"></div>
+                            <div class="box-text">
+                                <div class="title-wrapper">
+                                    <div class="title">Giay mới</div>
+                                </div>
+                                <div class="price-wrapper">
+                                    <div class="price">1.500.000<span class="đ">đ</span></div>
+                                </div>
+                                <div class="add-to-card-btn">
+                                    <div class="button"> <a href="~/GioHang" tabindex="-1" aria-disabled="true" class="btn"> <span class="btn-label">Mua ngay</span> </a> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="small-container">
+                    <h2 class="line">Giày siêu êm</h2>
+                    <div class="row">
+                        <!--col 1-->
+                        <div class="col-4">
+                            <div class="box-wrapper">
+                                <div class="box-img"><img src="./img/giay1.jpg" width="60" height="90"></div>
+
+                                <div class="box-text">
+                                    <div class="title-wrapper">
+                                        <div class="title">Giay nike 1</div>
+                                    </div>
+                                    <div class="price-wrapper">
+                                        <div class="price">500.000<span class="đ">đ</span></div>
+                                    </div>
+                                    <div class="add-to-card-btn">
+                                        <div class="button"> <a href="~/GioHang" tabindex="-1" aria-disabled="true" class="btn"> <span class="btn-label">Mua ngay</span> </a> </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end col 1-->
+                        <!--col 2-->
+                        <div class="col-4">
+                            <div class="box-wrapper">
+                                <div class="box-img"><img src="./img/giay3.jpg" width="60" height="90"></div>
+
+                                <div class="box-text">
+                                    <div class="title-wrapper">
+                                        <div class="title">Giay siêu xịn</div>
+                                    </div>
+                                    <div class="price-wrapper">
+                                        <div class="price">500.000<span class="đ">đ</span></div>
+                                    </div>
+                                    <div class="add-to-card-btn">
+                                        <div class="button"> <a href="~/GioHang" tabindex="-1" aria-disabled="true" class="btn"> <span class="btn-label">Mua ngay</span> </a> </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end col 2-->
+                        <!--col 3-->
+                        <div class="col-4">
+                            <div class="box-wrapper">
+                                <div class="box-img"><img src="./img/giày adidas.jfif" width="60" height="90"></div>
+                                <div class="box-text">
+                                    <div class="title-wrapper">
+                                        <div class="title">Giày adidas</div>
+                                    </div>
+                                    <div class="price-wrapper">
+                                        <div class="price">1.000.000<span class="đ">đ</span></div>
+                                    </div>
+                                    <div class="add-to-card-btn">
+                                        <div class="button"> <a href="~/GioHang" tabindex="-1" aria-disabled="true" class="btn"> <span class="btn-label">Mua ngay</span> </a> </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end col 3-->
+                        <!--col 4-->
+                        <div class="col-4">
+                            <div class="box-wrapper">
+                                <div class="box-img"><img src="./img/giay1.jpg" width="60" height="90"></div>
+                                <div class="box-text">
+                                    <div class="title-wrapper">
+                                        <div class="title">Giay nike </div>
+                                    </div>
+                                    <div class="price-wrapper">
+                                        <div class="price">1.000.000<span class="đ">đ</span></div>
+                                    </div>
+                                    <div class="add-to-card-btn">
+                                        <div class="button"> <a href="~/GioHang" tabindex="-1" aria-disabled="true" class="btn"> <span class="btn-label">Mua ngay</span> </a> </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end col 4-->
+            <!--rightcolum-->
+            <div class="rightcolumn">
+                <div class="small-container">
+                    <h3>Danh mục sản phẩm</h3>
+                    <a href="#">Vest</a> <a href="#">Áo sơ mi</a> <a href="#">Áo thun</a> <a href="#">Quần âu</a> <a href="#">Quần sort</a> <a href="#">Giày da</a> <a href="#">Sneaker</a>
+                    <div class="small-container">
+                        <h3>Sản phẩm nổi bật</h3>
+                        <div class="row">
+
+                        </div>
+                        <div class="footer-col-2">
+
+                        </div>
+                    </div>
+                    <h3>Tin tức nổi bật</h3>
+                    <div class="row">
+                        <div class="col-1">
+                            <div class="box-wrapper">
+                                <div class="box-img"><img src="./img/giay1.jpg"></div>
+                                <div class="box-text">
+                                    <div class="text-wrapper">
+                                        <div class="text">
+                                            <p>Giày nike có mấy người nhà giàu nó mang chứ ai mà có tiền mang ba cái giày này, mua về đi tốn tiền đó</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--end rightcolum-->
+        </div>
+    </div>
+</body>
+</html>
+
+<script type="text/javascript">
+    function buynow() {
+        question = confirm("Bạn muốn mua sản phẩm này ?");
+        if (question != false) {
+            alert('Cảm ơn bạn đã góp gạo')
+        }
+    }
+</script>
+
+
